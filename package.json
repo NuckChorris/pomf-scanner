@@ -8,6 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "colors": "~0.6.2",
-    "sql": "~0.32.0"
+    "sql": "~0.32.0",
+    "mysql": "~2.6.2"
   }
 }

@@ -50,7 +50,7 @@ master.on('file', function (data) {
 	if (!stat.isFile() || stat.isSymbolicLink()) return master.send('next');
 
 	var birthtime = new Date(Math.min(stat.atime.getTime(), stat.mtime.getTime(),
-	                                  stat.ctime.getTime(), stat.birthtime.getTime()));
+	                                  stat.ctime.getTime()));
 
 	var file = fs.createReadStream(data.file);
 
