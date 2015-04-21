@@ -1,0 +1,13 @@
+{
+  "name": "pomf-scanner",
+  "version": "0.1.0",
+  "description": "Loads a bunch of files into the database",
+  "main": "master.js",
+  "scripts": {},
+  "author": "Peter Lejeck <peter.lejeck@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "~0.6.2",
+    "sql": "~0.32.0"
+  }
+}
